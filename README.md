@@ -24,8 +24,6 @@ Pre-requisites: SQL SERVER MANAGEMENT STUDIO should be installed on your compute
    https://nodejs.org/en/
    
 2. Install it on your computer and once installation is completed open the node.js command prompt.
-
-   -------------IMAGE OF COMMAND PROMPT-------------------------------
    
 3.  Follow the below steps:
     1. Open the Command Prompt. 
