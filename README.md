@@ -45,23 +45,20 @@ Pre-requisites: SQL SERVER MANAGEMENT STUDIO should be installed on your compute
 	11.Open the SQL server managment studio and create the table having name 'topics'.
 	   create table topics(id varchar(100) primary key not null,name varchar(100),description varchar(20));
 	12. Note that you need to specify the connection details in appexpress.js file.
-	   ---------------IMAGE OF appexpress.js -------------------
    
     13.Once follow the above steps. Now go to myapp directory and execute the following command:
 	   npm run dev
 	14. You will see the below message as seen in below image:
-		---------------IMAGE OF DEVELOPMENT SERVER -------------------
 	15. Default browser of your computer will open(prefer either chrome or firefox browser) and application will get loaded.You can play with it.
 	16. There is a form(that doesnot use html form tag) to fill which had three inputs, drop down to update the id. 
 	   Check what happen after the form is submitted. Does the UI get updated 
 	   dynamically. I have applied some regular expression on input validation to check if the criteria gets satisfied before proceeding to next step.
-	   ------------IMAGE OF APPLICATION-------------------------------
 	   
 	   
 IMPORTANT NOTE:
 1. I have also developed the same react-application that is integrated with spring boot framework(backend) and connected with an embeeded database (derby). 
    INSTALLATION steps for it are mention in its respective document. You can visit on the following link:
-   ------------------------PROVIDE GITHUB LINK FOR NODE-------------------------------------------------
+   https://github.com/Milind-Gawande/react-spring_boot_framework/
 
 ----------------------------------   
 README CONTENT ADDED BY USER:
