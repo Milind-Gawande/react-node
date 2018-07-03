@@ -5,7 +5,7 @@ README CONTENT ADDED BY USER:
 
 Hi guys,
 
-I have made a simple application on React as frontend and Spring boot framework as backend.
+I have made a simple application on React as frontend and node.js as backend connected with SQL Server.
 Each and every persons inputs are welcome if you see any error/exception in the application.
 
 Application smoothly run on (desktop) firefox and chrome browser as i had used display:flex.
