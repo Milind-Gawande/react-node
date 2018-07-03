@@ -1,3 +1,78 @@
+########### START ###############
+----------------------------------   
+README CONTENT ADDED BY USER:
+----------------------------------
+
+Hi guys,
+
+I have made a simple application on React as frontend and Spring boot framework as backend.
+Each and every persons inputs are welcome if you see any error/exception in the application.
+
+Application smoothly run on (desktop) firefox and chrome browser as i had used display:flex.
+There are flex webkits for other browser which I had not specified in the css file that would support cross-browser
+compatability. You can experiment with it and also can share with others if you can.
+Currently the layouts are fixed. Will keep on updating the code for liquid layout so that if the window get re-size, the elements
+inside it will change it dimension with respective to it.
+
+
+
+INSTALLATION STEPS TO DEPLOY THE APPLICATION ON COMPUTER:
+
+Pre-requisites: SQL SERVER MANAGEMENT STUDIO should be installed on your computer. As I have used the same to connect with it.
+
+1. Download the node.js 32-bit/64-bit based on the operating system it supported from the below link:
+   https://nodejs.org/en/
+   
+2. Install it on your computer and once installation is completed open the node.js command prompt.
+
+   -------------IMAGE OF COMMAND PROMPT-------------------------------
+   
+3.  Follow the below steps:
+    1. Open the Command Prompt. 
+    2. Run the command:    (Wait till it is installed)
+	   npm install -g create-react-app  
+    3. Now execute the following command.
+	   create-react-app myapp
+	4. After third step. change directory to myapp {cd myapp}
+	5. Create directory (client) and move the folder(node_modules,public,src,package.json) to client directory.
+	6. Download the zip file from github and extract it on your computer.
+	7. Copy package.json and appexpress.js file on your my-app directory. Open package.json and change the property value of 
+       name to 'myapp' and version(this can be copy from package.json file which is resided inside client directory).
+    8. Go to client directory of my-app and add proxy line i.e. "proxy": "http://localhost:5000/".
+    9. node_modules folder which is inside client directory contains all the dependencies files. You will also have to add external
+       dependencies files which is mentioned in below steps.
+    10.User will also have to install (express,cors,body-parser,mssql,jquery) using npm.
+	11.Open the SQL server managment studio and create the table having name 'topics'.
+	   create table topics(id varchar(100) primary key not null,name varchar(100),description varchar(20));
+	12. Note that you need to specify the connection details in appexpress.js file.
+	   ---------------IMAGE OF appexpress.js -------------------
+   
+    13.Once follow the above steps. Now go to myapp directory and execute the following command:
+	   npm run dev
+	14. You will see the below message as seen in below image:
+		---------------IMAGE OF DEVELOPMENT SERVER -------------------
+	15. Default browser of your computer will open(prefer either chrome or firefox browser) and application will get loaded.You can play with it.
+	16. There is a form(that doesnot use html form tag) to fill which had three inputs, drop down to update the id. 
+	   Check what happen after the form is submitted. Does the UI get updated 
+	   dynamically. I have applied some regular expression on input validation to check if the criteria gets satisfied before proceeding to next step.
+	   ------------IMAGE OF APPLICATION-------------------------------
+	   
+	   
+IMPORTANT NOTE:
+1. I have also developed the same react-application that is integrated with spring boot framework(backend) and connected with an embeeded database (derby). 
+   INSTALLATION steps for it are mention in its respective document. You can visit on the following link:
+   ------------------------PROVIDE GITHUB LINK FOR NODE-------------------------------------------------
+
+----------------------------------   
+README CONTENT ADDED BY USER:
+----------------------------------
+########### END ##############
+
+   
+----------------------------------------   
+DEFAULT README CONTENT CREATED AS BELOW:
+----------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
