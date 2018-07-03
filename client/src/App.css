@@ -1,0 +1,285 @@
+
+.LeftApp {
+  text-align: left;
+}
+
+.txtwhit{
+	color:white;
+}
+
+.colorP{
+	background-color:white;
+	margin-left:22px;
+	width:160px;
+}
+#face{
+	position:relative;
+	padding:10px;
+	height:30px;
+}
+
+#linkedin,#twitter{
+	margin-bottom:9px;
+	height:30px;
+	width:30px;
+}
+
+#linkedin{
+	margin-left:10px;
+}
+
+#twitter{
+	margin-left:20px;
+}
+
+#license{
+	width:140px;
+	height:60px;
+	margin-left:10px;
+}
+
+#lselec{
+	padding-left:30px;
+	margin-top:10px;
+}
+
+#Msg{
+	color:red;
+	font-size:12px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 10s linear;
+  height: 60px;
+}
+
+.SApp-logo {
+  animation: Node-logo-spin infinite 5s linear;
+  height: 60px;
+}
+
+#country{
+	color:orange;
+}
+
+header {
+  background-color: #222;
+  height: 110px;
+  color: white;
+  padding: 10px;
+  width:100%;
+  position:fixed;
+  top:0;
+}
+
+footer {
+  background-color: #222;
+  height: 120px;
+  color: white;
+  padding: 10px;
+  display:flex;
+  flex-flow:row wrap;
+}
+
+main{
+	margin-top:150px;
+}
+
+
+#spring{
+	position:relative;
+	left:50px;
+}
+
+
+#clock{
+	position:absolute;
+	right:30px;
+	top:25px;
+}
+
+#logo{
+	position:absolute;
+	top:60px;
+	left:50px;
+}
+
+@keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -180px 0px;}
+}
+
+.backImg{
+	background-image:url(./geometric.jpg);
+	animation: backgroundScroll infinite 6s linear;
+    animation-fill-mode: forwards;
+}
+
+#classroom{
+	position:absolute;
+	top:5px;
+	left:250px;
+}
+
+#office{
+	position:absolute;
+	top:5px;
+	left:550px;
+}
+
+#office1{
+	position:absolute;
+	top:5px;
+	left:850px;
+}
+
+.App-title {
+  font-size: 18px;
+}
+
+#checkId{
+	text-align:center;
+	display:none;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes Node-logo-spin {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+table{
+table-layout: fixed;
+border:3px solid purple;
+background-color:#ff33cc;
+margin-top:10px;
+}
+
+
+#main{
+	width:100%;
+	height:100%;
+	display:flex;
+	flex-flow:row wrap;
+}
+
+#imgM{
+	margin-left:60px;
+}
+
+#main #emptab{
+	margin-left:20px;
+}
+
+#main #Main{
+	margin-left:30px;
+}
+
+
+thead th{
+	background:linear-gradient(to bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.5));
+	border:3px solid purple;
+}
+
+tbody tr:nth-child(odd){
+	background-color:#ff33cc;
+}
+
+tbody tr:nth-child(even){
+	background-color:#e495e4;
+}
+
+thead{
+	background:url(./leopardskin.jpg);
+	color:white;
+	text-shadow:1px 1px 1px black;
+}
+th{
+	letter-spacing:2px;
+}
+
+td{
+	letter-spacing:1px;
+}
+
+tbody td{
+	text-align:center;
+}
+
+th,td{
+	padding:20px;
+}
+
+tbody tr{
+	background-image:url(./noise.png);
+}
+
+thead th{
+	font-family:'Rock Salt',cursive;
+}
+
+#form{
+	  margin-left:10px;
+	  width:310px;
+	  padding:1em;
+	  border:1px solid #CCC;
+	  border-radius:1em;
+	  background-color:white;
+	 }
+
+#form div + div{
+	 margin-top:1em;
+	 }
+	 
+	 
+input{
+	 font: 1em sans-serif;
+	 width:190px;
+	 border:1px solid #999;
+	 }
+
+input:focus{
+	  border-color:#000;
+	 }
+	 
+.button{
+	  padding-left:90px;
+	  margin-left:.5em;
+	 }
+
+button{
+	 height:30px;
+	 width:80px;
+	 border-radius:10px;
+	 border:none;
+	 background-image:linear-gradient(to bottom right,#777,#ddd);
+	 box-shadow: 1px 1px 1px black,
+			     inset 2px 3px 5px rgba(0,0,0,0.3),
+				 inset -2px -3px 5px rgba(255,255,255,0.5);
+}
+
+button:focus,button:hover{
+	 background-image:linear-gradient(to bottom right,#888,#eee);
+	}
+	
+button:active{
+	box-shadow: inset 2px 2px 1px black,
+			    inset 2px 3px 5px rgba(0,0,0,0.3),
+				inset -2px -3px 5px rgba(255,255,255,0.5);
+}
+	 
+label{
+	  display:block;
+	  text-align:right;
+	 }
+abbr{
+	color:red;
+}
+
+#upd{
+	display:none;
+}
