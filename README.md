@@ -8,11 +8,9 @@ Hi guys,
 I have made a simple application on React as frontend and node.js as backend connected with SQL Server.
 Each and every persons inputs are welcome if you see any error/exception in the application.
 
-Application smoothly run on (desktop) firefox and chrome browser as i had used display:flex.
+Application smoothly run on firefox and chrome browser as i had used display:flex.
 There are flex webkits for other browser which I had not specified in the css file that would support cross-browser
 compatability. You can experiment with it and also can share with others if you can.
-Currently the layouts are fixed. Will keep on updating the code for liquid layout so that if the window get re-size, the elements
-inside it will change it dimension with respective to it.
 
 
 
