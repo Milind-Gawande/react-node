@@ -55,6 +55,8 @@ IMPORTANT NOTE:
 1. I have also developed the same react-application that is integrated with spring boot framework(backend) and connected with an embeeded database (derby). 
    INSTALLATION steps for it are mention in its respective document. You can visit on the following link:
    https://github.com/Milind-Gawande/react-spring_boot_framework/
+   You can also see the spring Live application that is hosted on following link:
+   http://react-springboot-react-springboot.193b.starter-ca-central-1.openshiftapps.com/
 
 ----------------------------------   
 README CONTENT ADDED BY USER:
