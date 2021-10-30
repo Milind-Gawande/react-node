@@ -1,6 +1,7 @@
 var express = require('express');
 var cors = require('cors');
 var app = express();
+let num = 0;
 var sql = require("mssql");
 var bodyParser = require('body-parser');
 //var cookieParser = require('cookie-parser');
